@@ -3,124 +3,238 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-
-
- .container { 
-	 width: 876px;
-	margin: 0 auto;
-	
+.container {
+  width: 876px;
+  margin: 0 auto;
 }
 .top-page {
-	margin-bottom: 20px;
-	padding-top: 25px;
-	width: 877px;
-	display: flex;
-	justify-content: space-between;	
-	/* justify-content: baseline; */
+  margin-bottom: 20px;
+  padding-top: 25px;
+  width: 877px;
+  display: flex;
+  justify-content: space-between;
+  /* justify-content: baseline; */
 }
 nav {
-	padding-top: 8px;
+  padding-top: 8px;
 }
 
 nav a {
-	padding-right: 38px;
-	text-decoration: none;
-	color: lightgray; 
+  padding-right: 38px;
+  text-decoration: none;
+  color: lightgray;
 }
 h1 {
-	text-align: center;
-	font-size: 77px;
+  text-align: center;
+  font-size: 77px;
 }
 .middle-content {
-	margin-top: 75px;
-	display: flex;
-	justify-content: center;
-	justify-content: space-around;
+  margin-top: 75px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
 }
 .innovation {
-	padding-top: 60px;
+  padding-top: 60px;
 }
 button {
-	height: 28px;
-	width: 140px;
-	background: white;
+  height: 28px;
+  width: 140px;
+  background: white;
 }
 .top-content {
-	padding-top: 53px;
-	border-top: 1px solid black; 
-
+  display: flex;
+  padding-top: 53px;
+  border-top: 1px solid black;
+  align-content: left;
 }
 header {
-	
-	margin-bottom: 80px;
+  margin-bottom: 80px;
 }
 .get-started {
-	height:30px;
-	padding-left: 70px;
+  height: 30px;
+  padding-left: 70px;
 }
 .logo {
-	height: 40px;
-	margin-right: 18px;
-	
+  height: 40px;
+  margin-right: 18px;
+}
+.features {
+ text-align: start;
+ width: 49%;
+ 
+}
+.about {
+  text-align: left;
+  width: 49%;
+}
+.middle-img {
+  margin-top: 30px;
+}
+.bottom-content {
+  display: flex;
+  padding-top: 53px;
+  align-content: left;
+  border-bottom: 1px solid black;
+  padding-bottom: 60px;
+  margin-bottom: 50px;
+}
+ .copyright { 
+   padding-top: 200px;
+   margin-left: 180px; 
+ }
+footer {
+  display: flex;
+  padding-bottom: 100px;
+}
+.contact {
+  width: 150px;
+}
