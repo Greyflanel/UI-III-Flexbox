@@ -78,20 +78,20 @@ h1, h2, h3, h4, h5 {
 	width: 877px;
 	display: flex;
 	justify-content: space-between;	
-	
+	/* justify-content: baseline; */
 }
 nav {
 	padding-top: 8px;
 }
 
 nav a {
-	padding-right: 35px;
+	padding-right: 38px;
 	text-decoration: none;
 	color: lightgray; 
 }
 h1 {
 	text-align: center;
-	font-size: 75px;
+	font-size: 77px;
 }
 .middle-content {
 	margin-top: 75px;
@@ -103,17 +103,24 @@ h1 {
 	padding-top: 60px;
 }
 button {
-	margin-left: 75px;
 	height: 28px;
 	width: 140px;
 	background: white;
 }
 .top-content {
-	padding-top: 40px;
-	border-top: 1px dashed black; 
+	padding-top: 53px;
+	border-top: 1px solid black; 
 
 }
 header {
 	
-	margin-bottom: 70px;
+	margin-bottom: 80px;
 }
+.get-started {
+	height:30px;
+	padding-left: 70px;
+}
+.logo {
+	height: 40px;
+	margin-right: 18px;
+	
