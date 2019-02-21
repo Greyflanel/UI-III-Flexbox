@@ -64,9 +64,12 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-.container {
-	margin-left: 305px;
-	margin-right: 305px;
+
+
+
+ .container { 
+	 width: 876px;
+	margin: 0 auto;
 	
 }
 .top-page {
