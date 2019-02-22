@@ -263,3 +263,17 @@ footer {
  height: 35px;
   border-radius: 6px;
 }
+.div1, .div2, .div3 {
+  display: flex;
+
+}
+.first-p, .second-p, .third-p, .fourth-p, .fifth-p, .sixth-p, .seventh-p {
+  width: 49%;
+  border: 1px solid black;
+ margin: 20px;
+ text-align: start;
+}
+.seventh-p {
+  border: 0;
+}
+
