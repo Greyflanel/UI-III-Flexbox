@@ -276,4 +276,10 @@ footer {
 .seventh-p {
   border: 0;
 }
+.facts-about {
+  display: flex;
+}
+h4 {
+  text-decoration: bold;
+}
 
