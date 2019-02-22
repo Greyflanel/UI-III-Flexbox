@@ -243,6 +243,7 @@ footer {
 .services-container {
   width: 881px;
   margin: 0 auto;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .h1 {
   width: 90px;
@@ -260,18 +261,27 @@ footer {
   margin-bottom: 40px;
 }
 .button1 {
- height: 35px;
+  height: 35px;
   border-radius: 6px;
 }
-.div1, .div2, .div3 {
+.div1,
+.div2,
+.div3 {
   display: flex;
-
+  margin: 20px;
 }
-.first-p, .second-p, .third-p, .fourth-p, .fifth-p, .sixth-p, .seventh-p {
+.first-p,
+.second-p,
+.third-p,
+.fourth-p,
+.fifth-p,
+.sixth-p,
+.seventh-p {
+  margin-left: 20px;
   width: 49%;
   border: 1px solid black;
- margin: 20px;
- text-align: start;
+  padding: 20px;
+  text-align: start;
 }
 .seventh-p {
   border: 0;
@@ -279,7 +289,9 @@ footer {
 .facts-about {
   display: flex;
 }
-h4 {
-  text-decoration: bold;
+.copyright2 {
+ text-align: center;
 }
-
+footer {
+  display: inline;
+}
